@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0E3B1F"/><stop offset="1" stop-color="#2E8B57"/></linearGradient></defs>
+<rect width="800" height="450" fill="url(#g)"/>
+<circle cx="690" cy="90" r="160" fill="#EAFBEA" opacity="0.06"/><circle cx="740" cy="400" r="120" fill="#EAFBEA" opacity="0.05"/>
+<g font-family="Roboto Slab, Georgia, serif" fill="#EAFBEA">
+<text x="56" y="220" font-size="58" font-weight="700">Pitchside</text>
+<text x="56" y="272" font-size="26" opacity="0.9" font-family="Open Sans, Helvetica, Arial, sans-serif">World Cup companion app</text>
+<text x="56" y="390" font-size="20" opacity="0.7" font-family="Open Sans, Helvetica, Arial, sans-serif" letter-spacing="1">Live match data · Fan Zone</text>
+</g></svg>
