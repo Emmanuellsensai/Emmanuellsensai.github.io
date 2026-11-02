@@ -2374,3 +2374,32 @@ body.dark-mode .tool-card {
 body.dark-mode .tool-card h4 {
     color: #f8fafc;
 }
+/* Logos that are black by default (Next.js, Vercel) */
+body.dark-mode .tool-card img.invert-dark {
+    filter: invert(1);
+}
+
+/* Card images share one frame so side-by-side cards line up */
+.posts article .image img {
+    width: 100%;
+    aspect-ratio: 16 / 10;
+    object-fit: cover;
+    object-position: center;
+}
+
+.posts article .image img.fit {
+    object-fit: contain;
+    background-color: #f5f6f7;
+}
+
+body.dark-mode .posts article .image img.fit {
+    background-color: #1e293b;
+}
+
+body.dark-mode #menu ul a, body.dark-mode #menu ul span {
+    color: #cbd5e1;
+}
+
+body.dark-mode #menu ul a:hover, body.dark-mode #menu ul span:hover {
+    color: #f56a6a;
+}
